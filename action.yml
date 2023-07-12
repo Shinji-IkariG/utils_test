@@ -29,7 +29,7 @@ runs:
   using: "composite"
   steps:
     - run: |
-      curl https://gosspublic.alicdn.com/ossutil/install.sh | bash
+        curl https://gosspublic.alicdn.com/ossutil/install.sh | bash
       shell: bash
     - run: |
         j=0
